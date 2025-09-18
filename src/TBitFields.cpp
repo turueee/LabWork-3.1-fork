@@ -1,7 +1,7 @@
 #include "TBitFields.h"
 
-#define ERROR(err,...) throw TError(err, __func__, __FILE__, __LINE__)
 
+#define ERROR(err,...) throw TError(err, __func__, __FILE__, __LINE__)
 constexpr int BITSIZE = 8 * sizeof(TELEM);
 
 int TBitFields::GetMemIndex(const int n) const
