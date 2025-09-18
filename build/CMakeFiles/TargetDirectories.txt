@@ -1,0 +1,7 @@
+C:/Users/turus/Desktop/LabWork-3.1-fork/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/turus/Desktop/LabWork-3.1-fork/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/turus/Desktop/LabWork-3.1-fork/build/src/CMakeFiles/set.dir
+C:/Users/turus/Desktop/LabWork-3.1-fork/build/samples/CMakeFiles/main.dir
+C:/Users/turus/Desktop/LabWork-3.1-fork/build/samples/CMakeFiles/sample_prime_numbers.dir
+C:/Users/turus/Desktop/LabWork-3.1-fork/build/gtest/CMakeFiles/gtest.dir
+C:/Users/turus/Desktop/LabWork-3.1-fork/build/test/CMakeFiles/test_set.dir
