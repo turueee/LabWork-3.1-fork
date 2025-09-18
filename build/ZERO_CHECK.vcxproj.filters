@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\turus\Desktop\LabWork-3.1-fork\build\CMakeFiles\685cbf61bd14961b4ccebff4808f751b\generate.stamp.rule">
+    <CustomBuild Include="D:\Рабочий стол\LabWork-3.1-fork\build\CMakeFiles\e422a18e86f5df9c5dde7b8c2604f152\generate.stamp.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{605EA67A-673A-3AAF-A528-6C0A4FB2C712}</UniqueIdentifier>
+      <UniqueIdentifier>{34DDA42E-DB8C-3D75-98A5-2CAB5648BE04}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

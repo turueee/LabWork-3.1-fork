@@ -1,48 +1,42 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\turus\Desktop\LabWork-3.1-fork\src\TBitFields.cpp">
+    <ClCompile Include="D:\Рабочий стол\LabWork-3.1-fork\src\TBitFields.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\turus\Desktop\LabWork-3.1-fork\src\TError.cpp">
+    <ClCompile Include="D:\Рабочий стол\LabWork-3.1-fork\src\TError.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\turus\Desktop\LabWork-3.1-fork\src\TString.cpp">
+    <ClCompile Include="D:\Рабочий стол\LabWork-3.1-fork\src\TString.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\turus\Desktop\LabWork-3.1-fork\src\tbitfield.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\turus\Desktop\LabWork-3.1-fork\src\tset.cpp">
+    <ClCompile Include="D:\Рабочий стол\LabWork-3.1-fork\src\tset.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\turus\Desktop\LabWork-3.1-fork\include\TBitFields.h">
+    <ClInclude Include="D:\Рабочий стол\LabWork-3.1-fork\include\TBitFields.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\turus\Desktop\LabWork-3.1-fork\include\TError.h">
+    <ClInclude Include="D:\Рабочий стол\LabWork-3.1-fork\include\TError.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\turus\Desktop\LabWork-3.1-fork\include\TString.h">
+    <ClInclude Include="D:\Рабочий стол\LabWork-3.1-fork\include\TString.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\turus\Desktop\LabWork-3.1-fork\include\tbitfield.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="C:\Users\turus\Desktop\LabWork-3.1-fork\include\tset.h">
+    <ClInclude Include="D:\Рабочий стол\LabWork-3.1-fork\include\tset.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\turus\Desktop\LabWork-3.1-fork\src\CMakeLists.txt" />
+    <CustomBuild Include="D:\Рабочий стол\LabWork-3.1-fork\src\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{36D24CA3-BFB5-36C6-B85F-5ED35CAE31B0}</UniqueIdentifier>
+      <UniqueIdentifier>{0A4330D6-B6EB-339A-AB5D-6454E7E94D85}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{FF5B22E1-C752-3075-9589-2D4BC07F48EE}</UniqueIdentifier>
+      <UniqueIdentifier>{56D4DC8B-33CF-3A34-9881-5336DEEF9CFE}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
