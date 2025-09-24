@@ -10,7 +10,7 @@ TError::TError(char* error,
 	func = move(function);
 	fil = move(file);
 	lin = line;
-	//std::cout << "\nError: " << er << "Function: " << func << "File: " << fi <<"Line:"<<line<< endl;
+	//std::cout << "\nError: " << err << "Function: " << func << "File: " << fil <<"Line:"<<line<< endl;
 }
 
 TError::TError(const char* error, const char* function, const char* file, int line)
@@ -19,7 +19,7 @@ TError::TError(const char* error, const char* function, const char* file, int li
 	func = move(function);
 	fil = move(file);
 	lin = line;
-	//td::cout << "\nError: " << err << "Function: " << func << "File: " << fil <<"Line:"<<line<< endl;
+	//std::cout << "\nError: " << err << "Function: " << func << "File: " << fil <<"Line:"<<line<< endl;
 }
 
 void TError::what()

@@ -81,7 +81,7 @@ bool TSet::operator!=(const TSet &s) const // сравнение
 
 TSet TSet::operator+(const TSet &s) // объединение
 {
-    return bitField|s.bitField;
+    return TSet(bitField|s.bitField);
 }
 
 TSet TSet::operator+(const int Elem) // объединение с элементом
@@ -100,7 +100,7 @@ TSet TSet::operator-(const int Elem) // разность с элементом
 
 TSet TSet::operator*(const TSet &s) // пересечение
 {
-    return bitField & s.bitField;
+    return TSet(bitField & s.bitField);
 }
 
 TSet TSet::operator~() // дополнение
@@ -113,14 +113,23 @@ TSet TSet::operator~() // дополнение
 istream &operator>>(istream &istr, TSet &s) // ввод
 {
     std::vector<int> nums;
-    int i;
+    int i,max;
     s.Clean();
     istr >> i;
-    while (i != -1)
+    max = i;
+    nums.push_back(i);
+    while (i >= 0)
     {
-        s.InsElem(i);
         istr >> i;
+        nums.push_back(i);
+        if (i > max)
+            max = i;
     }
+    nums.pop_back();
+    TSet set(max + 1);
+    for (int num : nums)
+        set.InsElem(num);
+    s = set;
     return istr;
 }
 

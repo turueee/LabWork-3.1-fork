@@ -89,7 +89,9 @@ int TBitFields::GetLength() const
 
 void TBitFields::SetBit(const int n) {
 
-	if (n < 0 || n >= bitLen)
+	if (n < 0)
+		ERROR("Error_sizee");
+	if (n >= bitLen)
 		ERROR("Error_size");
 	int index = GetMemIndex(n);
 	TELEM mask = GetMemMask(n);
